@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+    {{msg}}
+    <div class="container-fluid">
+        <section class="row">
+            <div class="col-md-8">
+                <h2>Registration Form</h2><hr>
+                <form action="/transaction" method="POST">
+                    <label for="" class="form-label">Name</label>
+                    <input type="text" class="form-control" name="Name" placeholder="Enter your Name"><br>
+                    <label for="" class="form-label">Email Address</label>
+                    <input type="email" class="form-control" name="Email" placeholder="Enter your Email Address"><br>
+                    <label for="" class="form-label">Phone</label>
+                    <input type="number" class="form-control" name="Phone" placeholder="Enter your Phone Number"><br>
+                    <input type="submit" value="Submit" class="btn btn-primary" placeholder="Submit">
+                </form>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

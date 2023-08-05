@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div style="background-color:cyan ;color: black; padding: 20px; width: 100%;"><br>
+        <center>
+            <h2>
+                <a href="/signin" style="color: black;">Sign In</a> &nbsp;
+                <a href="/signup" style="color: black;">Sign up</a> &nbsp;
+                <a href="/save" style="color: black;">Book</a>
+            </h2>
+        </center>
+    </div>
+    <form action="/signup" method="POST">
+        <!-- CREATE THE INPUT FIELDS -->
+        <!-- fname,lname,email,phone,id_no -->
+        <fieldset>
+            <legend style="color: red;">Registration/Signup form</legend>
+            <input type="text" name="fname" placeholder="First name">
+            <br><br>
+            <input type="text" name="lname" placeholder="Last name">
+            <br><br>
+            <input type="email" name="email" placeholder="Email address">
+            <br><br>
+            <input type="tel" name="phone" placeholder="Phone number">
+            <br><br>
+            <input type="number" name="id_no" placeholder="ID number">
+            <br><br>
+            <input type="submit" value="Signup">
+        </fieldset>
+    </form>
+</body>
+
+</html>
